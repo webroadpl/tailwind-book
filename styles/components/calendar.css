@@ -1,0 +1,15 @@
+.calendar-month {
+    @apply grid grid-cols-1 lg:grid-cols-7 gap-4
+}
+
+.day {
+    @apply rounded-lg shadow py-3 px-2 h-24 text-sm flex items-center justify-center hover:shadow-2xl transition hover:scale-105
+}
+
+.day-number {
+    @apply transition flex items-center justify-center h-6 w-6 font-bold bg-gray-100 rounded-full
+}
+
+.day:hover .day-number {
+    @apply bg-blue-100
+}

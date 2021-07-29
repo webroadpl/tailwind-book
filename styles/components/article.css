@@ -1,0 +1,29 @@
+.article {
+    @apply leading-7 font-serif
+}
+.article-title {
+    @apply text-3xl mb-5
+}
+.article-p {
+    @apply mb-3 text-justify
+}
+
+.article-data {
+    @apply mb-3 text-justify text-gray-500 italic my-5 py-5 border-t border-b
+}
+
+.article-footer {
+    @apply mt-5 font-sans shadow-2xl
+}
+
+.article-statistics {
+    @apply text-center
+}
+
+.article-statistics-box {
+    @apply transform transition hover:scale-105 hover:shadow-2xl hover:z-10
+}
+
+.article-statistics-box h3 {
+    @apply text-2xl font-bold inline-flex justify-center items-center
+}

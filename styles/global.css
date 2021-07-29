@@ -1,0 +1,11 @@
+@import "tailwindcss/base";
+
+@import "tailwindcss/components";
+@import "./components/separator.css";
+@import "./components/button.css";
+@import "./components/table.css";
+@import "./components/article.css";
+@import "./components/alert.css";
+@import "./components/calendar.css";
+
+@import "tailwindcss/utilities";

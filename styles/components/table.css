@@ -1,0 +1,11 @@
+.table tr td:first-child {
+    @apply bg-blue-50 font-semibold;
+}
+
+.table tr:hover td {
+    @apply bg-gray-100 shadow-lg transition-colors;
+}
+
+.table .td-actions {
+    @apply text-center
+}
