@@ -25,7 +25,7 @@ export default function Home() {
 
           <div className="my-5 antialiased">
             Zbudowany za pomocą <strong>Tailwind CSS</strong> i <strong>Next.js</strong> <br/>
-            na podstawie książki <em>"Tailwind. Praktyczne Projekty"</em>, <br/>
+            na podstawie książki <em>"Tailwind CSS. Projektowanie WWW i podejście Utility-First"</em>, <br/>
             wydanej nakładem Wydawnictwa <strong>Helion</strong>.
           </div>
 
